@@ -1,5 +1,10 @@
 #include <iostream>
 
 int main() {
-	return 0;
+	int a = 0;
+	if (false) {
+		a = 10;
+	}
+
+	std::cout << a << "\n";
 }
